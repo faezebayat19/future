@@ -1,0 +1,158 @@
+/*  HOME PAGE  */
+body {
+    background-color: #FFFFFF;
+    direction: rtl;
+    margin: 0;
+    font-family: vazir;
+  }
+  @font-face {
+    font-family: vazir;
+    src: url(./Fonts/Vazir-Black.eot);
+  }
+  @font-face {
+    font-family: vazirdigits;
+    src: url(./Fonts/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.ttf);
+  }
+  .topnav{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .topnav li{
+    padding: 14px 14px;
+    font-size: 17px;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    }
+    .topnav a{
+    text-decoration: none;
+    color: black;
+    }
+    .topnav li:hover{
+      color: black;
+      background-color: #6efeff;
+    }
+    .topnav img{
+      padding: 10px 20px;
+      float: right;
+    }
+    .searchbox{
+      top: 355px;
+      text-align: center;
+      font-size: large;
+  }
+  .searchinputsize{
+      height: 50px;
+      width: 500px;
+      text-align: center;
+      font-size: large;
+      border-radius: 7px;
+      font-family: vazir;
+  }
+  .searchbutton{
+      height: 55px;
+      width: 70px;
+      text-align: center;
+      font-size: large;
+      border-radius: 7px;
+      font-family: vazir;
+  }
+  .content1{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  .c1{
+    font-size: xx-large;
+    font-family: vazir;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+
+  .students{
+      background-color: rgba(24,24,24,255);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: -10px;
+      padding-top: 30px;
+    }
+  .students-num1{
+      width: 200px;
+      height: 200px;
+      background-color: #ffffff;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 70px;
+      margin-top: 10px;
+      box-shadow: 2px 2px 10px rgb(57, 191, 254);
+      padding: 0px;
+      text-align: center;
+  }
+  .studentsnm{
+    font-family: vazirdigits;
+    font-size: xx-large;
+    color: #1976d3;
+  }
+ .content2{
+    background-image: linear-gradient(rgba(24,24,24,255) 0%,rgba(25,118,210,255) 35%,white);
+    margin: -50px;
+    display: flex;
+    padding-top: 250px;
+    padding-bottom: 400px;
+  }
+  .c2{
+    font-size: x-large;
+    margin-right: 200px;
+    margin-left: 100px;
+  }
+  .img2{
+    margin-top: 60px;
+    margin-right: 50px;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: -60px;
+    margin-right: 140PX;
+  }
+  .imgfooter{
+    margin-right: 40px;
+  }
+  .table-container table,td,th{
+    border: 2px solid black;
+    padding: 3px 3px 3px 3px;
+    border-collapse: collapse;
+    margin-right: 200px;
+    width: 700px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .course-container{
+    display: flex;
+  }
+  .course-main{
+    margin-top: 200px;
+    margin-right: 200px;
+  }
+  .course-button{
+    margin-top: 370px;
+    flex-direction: row;
+    margin-right: -400px;
+  }
+  .course-img{
+    margin-right: 500px;
+    margin-top: 200px;
+  }
+  .styletable{
+    background-color: rgb(202, 248, 248);
+  }
+
+  
