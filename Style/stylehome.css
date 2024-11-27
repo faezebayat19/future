@@ -69,8 +69,9 @@ body {
     margin-right: 100px;
     margin-left: 100px;
   }
-
-
+  .link{
+    text-decoration: none;
+  }
   .students{
       background-color: rgba(24,24,24,255);
       display: flex;
@@ -154,5 +155,53 @@ body {
   .styletable{
     background-color: rgb(202, 248, 248);
   }
-
+  .sessionlist1{
+    width: 1500px;
+    height: fit-content;
+    background-color: rgb(197, 243, 254);
+    border: 2px solid rgb(105, 144, 223);
+  }
+  .spaceinlist{
+    padding: 300px;
+  }
+  .video{
+    padding: 100px 325px 100px;
+    justify-content: center;
+  }
+  .videoname{
+    text-align: center;
+  }
+  .register{
+    display: flex;
+    padding: 50px 200PX;
+  }
+.forminput{
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    height: 35px;
+    border: 2px solid blue;
+    border-radius: 12px;
+}
+.submit{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(221, 216, 216);
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin: 25PX;
+}
+.registerimg{
+  width: 700px;
+  height: 550px;
+  padding-right: 120px;
+  margin-right: 80px;
+}
+.headertext{
+  margin-right: 80px;
+  padding-right: 200px;
+  font-size: large;
+  text-align: center;
+  color: #082d63;
+}
   

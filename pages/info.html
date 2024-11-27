@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>تکمیل اطلاعات</title>
+        <link rel="icon" href="../Images/favicon.png">
+        <link rel="stylesheet" href="../Style/stylehome.css">
+    </head>
+    <body>
+        <div class="register">
+            <fieldset>
+                <legend>تکمیل اطلاعات</legend>
+                <form>
+                    <div>
+                        <label for="birthday">تاریخ تولد</label>
+                        <input type="date" id="birthday" class="forminput">
+                    </div>
+                    <br><br>
+                    <div>
+                        <p>جنسیت:<p>
+                        <label for="female">زن</label>
+                        <input type="radio" value="female" id="female" name="gender"><br>
+                        <label for="male">مرد</label>
+                        <input type="radio" value="male" id="male" name="gender">
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="cities">شهر محل سکونت:</label>
+                        <input list="cities" class="forminput">
+                        <datalist id="cities">
+                            <option value="تهران">تهران</option>
+                            <option value="تبریز">تبریز</option>
+                            <option value="اصفهان">اصفهان</option>
+                            <option value="اراک">اراک</option>
+                            <option value="سمنان">سمنان</option>
+                            <option value="مازندران">مازندران</option>
+                            <option value="بوشهر">بوشهر</option>
+                            <option value="کرمانشاه">کرمانشاه</option>
+                            <option value="یزد">یزد</option>
+                            <option value="شیراز">شیراز</option>
+                            <option value="بندرعباس">بندرعباس</option>
+                        </datalist>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="photo">عکس پروفایل</label>
+                        <input type="file" id="photo" accept="image/png, image/jpeg">
+                    </div>
+                    <br><br>
+                    <div>
+                        <p>علاقه مندی خود را مشخص کنید:</p>
+                        <input type="checkbox" value="backend" id="backend" name="interest">
+                        <label for="python">برنامه نویسی بکند</label>
+                        <br>
+                        <input type="checkbox" value="frontend" id="frontend" name="interest">
+                        <label for="javascript">برنامه نویسی فرانت‌اند</label>
+                        <br>
+                        <input type="checkbox" value="AIprogramming" id="AIprogramming" name="interest">
+                        <label for="machinelearning">برنامه نویسی هوش مصنوعی</label>
+                        <br>
+                        <input type="checkbox" value="database" id="database" name="interest">
+                        <label for="database">یادگیری دیتابیس</label>
+                        <br>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="level">سطح یادگیری مورد نیاز شما از علاقه‌مندی:</label>
+                        <select id="level" name="level" class="forminput">
+                            <option value="null"></option>
+                            <option value="preliminary">مقدماتی</option>
+                            <option value="average">متوسط</option>
+                            <option value="advanced">پیشرفته</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="range">میزان مطالعه شما در روز (0 تا 10 ساعت) :</label>
+                        <input type="range" min="0" max="10" name="range" id="range">
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="text">درباره من:</label>
+                        <br>
+                        <textarea id="text" name="aboutstudents" rows="5" placeholder="این اطلاعات به ما برای بهبود مطالب سایت کمک ویژه‌ای می‌کند." class="forminput"></textarea>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="color">رنگ پس زمینه سایت</label>
+                        <input type="color" id="color">
+                    </div>
+                    <br>
+                    <a href="../index.html">
+                        <button type="button">ثبت اطلاعات</button>
+                    </a>
+                </form>
+            </fieldset>
+            <div>
+                <img src="../Images/register2.png" alt="register2" class="registerimg">
+            </div>
+        </div>
+    </body>
+</html>
