@@ -37,6 +37,16 @@ body {
       padding: 10px 20px;
       float: right;
     }
+    .topbutton1{
+      padding-left: 45px;
+    }
+    .topbutton2{
+      float: left;
+      height: 40px;
+      text-align: center;
+      border-radius: 7px;
+      font-family: vazir;
+  }
     .searchbox{
       top: 355px;
       text-align: center;
@@ -203,5 +213,8 @@ body {
   font-size: large;
   text-align: center;
   color: #082d63;
+}
+option, select,button{
+  font-family: vazir;
 }
   

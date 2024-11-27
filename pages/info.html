@@ -9,7 +9,7 @@
         <div class="register">
             <fieldset>
                 <legend>تکمیل اطلاعات</legend>
-                <form>
+                <form action="../index.html">
                     <div>
                         <label for="birthday">تاریخ تولد</label>
                         <input type="date" id="birthday" class="forminput">
@@ -25,8 +25,8 @@
                     <br><br>
                     <div>
                         <label for="cities">شهر محل سکونت:</label>
-                        <input list="cities" class="forminput">
-                        <datalist id="cities">
+                        <input list="city" class="forminput" id="cities" name="cities">
+                        <datalist id="city">
                             <option value="تهران">تهران</option>
                             <option value="تبریز">تبریز</option>
                             <option value="اصفهان">اصفهان</option>
@@ -88,9 +88,7 @@
                         <input type="color" id="color">
                     </div>
                     <br>
-                    <a href="../index.html">
-                        <button type="button">ثبت اطلاعات</button>
-                    </a>
+                    <button type="submit">ثبت اطلاعات</button>
                 </form>
             </fieldset>
             <div>
